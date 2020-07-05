@@ -31,7 +31,7 @@ jobs:
         run: |
           curl -X POST https://api.github.com/repos/cloudmitigator/reflex-www-infrastructure/dispatches \
           -H "Accept: application/vnd.github.everest-preview+json" \
-          -H "Authorization: token $GITHUB_PAT" \
+          -H "Authorization: token $GITHUB_TOKEN" \
           --data '{"event_type": "deploy"}'
         env:
-          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+          GITHUB_TOKEN: ${{ secrets.CLOUDMITIGATOR_GITHUB_PAT }}

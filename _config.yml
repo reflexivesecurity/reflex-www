@@ -1,19 +1,19 @@
 # Site settings
-title: CloudMitigator Reflex - Detect Events Across All Clouds
-email: info@cloudmitigator.com
+title: Reflex - Detect Events Across All Clouds
+email: info@reflexivesecurity.com
 description: Event driven cloud security that is accessible to all.
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://cloudmitigator.github.io" # the base hostname & protocol for your site
+url: "https://reflexivesecurity.github.io" # the base hostname & protocol for your site
 
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
   - title: twitter
-    url: https://twitter.com/cloudmitigator
+    url: https://twitter.com/reflexivesecurity
   - title: facebook
-    url: https://facebook.com/cloudmitigator
+    url: https://facebook.com/reflexivesecurity
   - title: github
-    url: http://github.com/cloudmitigator
+    url: http://github.com/reflexivesecurity
 
 # Build settings
 markdown: kramdown

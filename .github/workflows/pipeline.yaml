@@ -29,7 +29,7 @@ jobs:
     steps:
       - name: Trigger deploy
         run: |
-          curl -X POST https://api.github.com/repos/cloudmitigator/reflex-www-infrastructure/dispatches \
+          curl -X POST https://api.github.com/repos/reflexivesecurity/reflex-www-infrastructure/dispatches \
           -H "Accept: application/vnd.github.everest-preview+json" \
           -H "Authorization: token $GITHUB_TOKEN" \
           --data '{"event_type": "deploy"}'
